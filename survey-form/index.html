@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Internet Usage Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<header id="title-area">
+	  <h1 id="title">Internet Usage Survey Form</h1>
+	  <p id="description">Thank you for taking the time to help us know about your Internet needs.</p>
+	</header>
+
+	<main>
+		<form id="survey-form">
+		  <div id="name-input">
+			<label id="name-label" for="name">Name</label><br>
+			<input class="text" type="text" id="name" name="name" placeholder="Enter your name" required>
+		  </div>
+		  
+		  <div id="email-input">
+			<label id="email-label" for="email">Email</label><br>
+			<input class="text" type="email" id="email" name="email" placeholder="Enter your email address" required>
+		  </div>
+		  
+		  <div id="number-input">
+			<label id="number-label" for="number">Age (optional)</label><br>
+			<input class="text" type="number" id="number" min="5" max="100" name="number" placeholder="Enter your age">
+		  </div>
+		  
+		  <div id="job-input">
+			<label id="job-label" for="dropdown">Occupation</label><br>
+			<select id="dropdown" name="job">
+			  <option disabled selected value>Select current job</option>
+			  <option value="student">Student</option>
+			  <option value="employee">Employee</option>
+			  <option value="businessman">Businessman</option>
+			  <option value="freelancer">Freelancer</option>
+			  <option value="wife">Wife</option>
+			</select>
+		  </div>
+			
+		  <div id="option-input">
+			<p>Would you like a place for accessing the Internet?</p>
+			<label id="yes-label" for="yes"><input type="radio" id="yes" name="internet" value="yes">Yes</label>
+			<label id="no-label" for="no"><input type="radio" id="no" name="internet" value="no">No</label>
+		  </div>
+		  
+		  <div id="checkbox-input">
+			<p>What would you like to have in a place with Internet access?</p>
+			<label id="comfortable-label" for="comfortable"><input type="checkbox" id="comfortable" name="comfortable" value="comfortable">Comfortable</label><br>
+			<label id="fast-label" for="fast"><input type="checkbox" id="fast" name="fast" value="fast">Fast Connection</label><br>
+			<label id="fooddrinks-label" for="fooddrinks"><input type="checkbox" id="fooddrinks" name="fooddrinks" value="fooddrinks">Food and Drinks</label><br>
+			<label id="print-label" for="print"><input type="checkbox" id="print" name="print" value="print">Printing</label><br>
+			<label id="selfservice-label" for="selfservice"><input type="checkbox" id="selfservice" name="selfservice" value="selfservice">Self-service</label><br>
+			<label id="wifi-label" for="wifi"><input type="checkbox" id="wifi" name="wifi" value="wifi">Wi-Fi</label>
+		  </div>
+		  
+		  <div id="textarea-input">
+			<p>Do you have any other suggestions for a place with Internet access?</p>
+			<textarea id="suggestions" name="suggestions" placeholder="Enter your other suggestions here"></textarea>
+		  </div>
+		  
+		  <div id="submit-input">
+			<button id="submit" type="submit">Submit</button>
+		  </div>
+		</form>
+	</main>
+</body>
+</html>

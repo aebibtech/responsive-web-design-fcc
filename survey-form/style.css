@@ -1,0 +1,66 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #333;
+  color: #f90;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  background-color: #111;
+}
+
+#title {
+  color: #fb0;
+  margin-bottom: 0px;
+  font-size: 2.5rem;
+}
+
+form div {
+  text-align: left;
+  margin: auto 1.25rem auto;
+  padding: 0.1rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+input {
+  margin-bottom: 0.50rem;
+}
+
+.text {
+  width: 100%;
+}
+
+textarea {
+  min-height: 120px;
+  width: 100%;
+  resize: vertical;
+}
+
+#submit {
+  padding: 0.25rem;
+}
+
+@media (min-width: 576px) {
+  main {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
