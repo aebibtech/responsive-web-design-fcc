@@ -108,3 +108,7 @@ main p {
   border-color: #000;
   border-radius: 15px;
 }
+
+#tribute-info {
+  max-width: 75%; 
+}
