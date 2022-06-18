@@ -94,6 +94,5 @@ main p {
 
 #tribute-info {
   max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
