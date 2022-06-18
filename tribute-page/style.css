@@ -12,6 +12,10 @@ body {
   margin: auto 30px auto 30px;
 }
 
+main {
+ max-width: 75%; 
+}
+
 h1 {
   font-size: 4rem;
   margin-bottom: 0;
