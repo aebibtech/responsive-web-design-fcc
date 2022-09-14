@@ -32,6 +32,10 @@ header {
     flex-wrap: wrap;
     word-wrap: break-word;
   }
+  #page-wrapper {
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 #header-img {
