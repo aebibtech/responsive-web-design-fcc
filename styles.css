@@ -11,7 +11,7 @@ h1 {
 
 a {
   display: block;
-  font-size: 2.5em;
+  font-size: 1.1em;
   color: #fff;
   text-decoration: none;
   padding-bottom: 30px;
@@ -33,7 +33,6 @@ img {
 
 .card {
   max-width: 15%;
-  padding: 40px;
   background: rgba(255, 255, 255, 0.05);
   margin-bottom: 30px;
 }
