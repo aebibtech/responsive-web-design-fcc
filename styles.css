@@ -1,7 +1,6 @@
 body {
   background: #000;
   color: #fff;
-  margin: auto 2em auto 2em;
 }
 
 h1 {
@@ -25,6 +24,7 @@ img {
 }
 
 .cards {
+  margin: 0 auto;
   max-width: 60%;
   display: flex;
   flex-wrap: wrap;
