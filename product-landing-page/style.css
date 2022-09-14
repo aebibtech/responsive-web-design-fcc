@@ -10,7 +10,8 @@ body {
 }
 
 #page-wrapper {
-  position: relative;
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 header {
